@@ -27,7 +27,7 @@ if USE_GROQ:
     print("✅ Using Groq (FREE) - Model: llama-3.1-8b-instant\n")
 else:
     # OpenAI API (requires paid credits)
-    API_KEY = "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"
+    API_KEY = ""
     MODEL = "gpt-3.5-turbo"
     client = OpenAI(api_key=API_KEY)
 
